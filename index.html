@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ed Brey for School Board</title>
+	<link rel="icon" href="favicon.png" type="image/png">
+	<style>
+		body {
+			font-family: Georgia, serif;
+		}
+
+		.container {
+			display: flex;
+			max-width: 1200px;
+			margin: 0 auto;
+			gap: 20px;
+			align-items: center;
+		}
+
+		.text-section {
+			flex: 1;
+			padding: 15px;
+			text-align: center;
+		}
+
+		.image-section {
+			flex: 0 0 30%;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.image-section img {
+			border-radius: 50%;
+			margin: 0 auto;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			max-height: 160px;
+		}
+
+		header {
+			color: #4E2683;
+		}
+
+		h1 {
+			margin-top: 0;
+			margin-bottom: .2em;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+
+		h1 i {
+			font-size: .7em;
+			font-weight: normal;
+			font-style: normal;
+			opacity: 0.8;
+		}
+
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			font-size: 16px;
+			color: white;
+			background-color: #4E2683;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+
+		.button:hover {
+			background-color: #3b1d66;
+		}
+
+		footer {
+			font-size: .8em;
+			color: gray;
+			margin-top: 15px;
+			font-family: sans-serif;
+		}
+
+		/* Media query for mobile devices */
+		@media (max-width: 600px) {
+			.container {
+				flex-direction: column;
+				align-items: stretch;
+			}
+
+			.image-section {
+				flex: 0 0 auto;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="text-section">
+			<header>
+				<h1><i>Vote</i> Ed Brey <i>for</i></h1>
+				<h2>Sheboygan Falls School Board</h2>
+			</header>
+			<p>Ed wants our schools to teach our American heritage without agendas, spend tax dollars efficiently, and encourage educators to achieve their highest potential to cause students to achieve theirs.</p>
+			<p>Learn about the issues and how Ed will work to improve Sheboygan Falls schools through academic focus.</p>
+			<a href="https://fallsforward.org" class="button">Find out more at Falls Forward</a>
+		</div>
+		<div class="image-section">
+			<img src="edbrey.webp" alt="Ed Brey">
+			<footer>
+				Paid for by Ed Brey for School Board
+			</footer>
+		</div>
+	</div>
+</body>
+
+</html>
